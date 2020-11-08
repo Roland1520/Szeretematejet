@@ -31,3 +31,7 @@ div#Menu>ul>li a {
 div#Menu>ul>li a:hover {
     color: red;
 }
+
+h1{
+    text-align: center;
+}
