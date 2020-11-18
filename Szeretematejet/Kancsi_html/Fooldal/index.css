@@ -14,14 +14,14 @@ div#Menu>ul {
 div#Menu>ul>li {
     display: block;
     display: inline-block;
-    widht: 300px;
-        padding: 4px 80px;
+    width: 100px;
+    padding: 4px 60px;
 }
 
 div#Menu>ul>li:hover {
     color: black;
     background-color: activecaption;
-        padding: 4px 80px;
+        padding: 4px 60px;
 
 
 } 
