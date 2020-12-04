@@ -19,13 +19,13 @@ div#Menu>ul>li {
     display: inline-block;
     padding: 4px 60px;
     float: start;
-    
+
 }
 
 div#Menu>ul>li:hover {
     color: black;
     background-color: activecaption;
-        padding: 4px 60px;
+    padding: 4px 60px;
 
 
 } 
@@ -34,17 +34,17 @@ div#Menu>ul>li a {
     display: block;
     color: white;
     text-decoration: none;
-        padding: 4px 60px;
-  display: block;
-  text-align: center;
-  text-decoration: none;
+    padding: 4px 60px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 
 }
 
 div#Menu>ul>li a:hover {
     color: red;
-        padding: 4px 60px;
-    
+    padding: 4px 60px;
+
 
 }
 
@@ -54,18 +54,4 @@ h1{
 
 #logo {
     text-align: center;
-    
-}
-
-img.balra {
-    float: left;
-    margin-right: 10px;
-}
-
-div.clear {
-    overflow: auto;
-}
-
-h2 {
-    text-decoration: underline;
 }
