@@ -56,3 +56,16 @@ h1{
     text-align: center;
     
 }
+
+img.balra {
+    float: left;
+    margin-right: 10px;
+}
+
+div.clear {
+    overflow: auto;
+}
+
+h2 {
+    text-decoration: underline;
+}
