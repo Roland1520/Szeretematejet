@@ -14,14 +14,14 @@ div#Menu>ul {
 div#Menu>ul>li {
     display: block;
     display: inline-block;
-    padding: 4px 60px;
+    width: 320px;
+
 }
 
 div#Menu>ul>li:hover {
     color: black;
     background-color: activecaption;
-    padding: 4px 60px;
-
+    width: 320px;
 
 } 
 
@@ -29,13 +29,15 @@ div#Menu>ul>li a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 4px 60px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 
 }
 
 div#Menu>ul>li a:hover {
     color: red;
-    padding: 4px 60px;
+    width: 320px;
 }
 
 h1{
@@ -44,7 +46,7 @@ h1{
 
 #logo {
     text-align: center;
-    width: 100%;
+    overflow: auto;
 }
 p {
     text-align: center;
@@ -54,5 +56,5 @@ p {
     background-color: #ff0000;
     border-radius: 25px;
     width: 700px;
-    height: 150px;
+    height: 150px; 
 }
