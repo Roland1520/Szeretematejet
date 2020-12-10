@@ -5,10 +5,11 @@ body{
 
 div#Menu>ul {
     display: block;
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
     text-align: center;
     font-size: 20px;
+
 }
 
 div#Menu>ul>li {
@@ -22,22 +23,24 @@ div#Menu>ul>li:hover {
     color: black;
     background-color: activecaption;
     width: 320px;
-
+    display: inline-block;
 } 
 
 div#Menu>ul>li a {
     display: block;
     color: white;
     text-decoration: none;
-    display: block;
     text-align: center;
     text-decoration: none;
-
+    padding: 10px;
+    font-weight: bold; 
 }
 
 div#Menu>ul>li a:hover {
-    color: red;
-    width: 320px;
+    color: maroon ;
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
 
 h1{
@@ -57,4 +60,5 @@ p {
     border-radius: 25px;
     width: 700px;
     height: 150px; 
+    
 }

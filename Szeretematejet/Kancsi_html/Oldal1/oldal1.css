@@ -5,47 +5,42 @@ body{
 
 div#Menu>ul {
     display: block;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 0px;
     text-align: center;
     font-size: 20px;
-    list-style-type: none;
-    overflow: hidden;
 
 }
 
 div#Menu>ul>li {
     display: block;
     display: inline-block;
-    padding: 4px 60px;
-    float: start;
-    
+    width: 320px;
+
 }
 
 div#Menu>ul>li:hover {
     color: black;
     background-color: activecaption;
-    padding: 4px 60px;
-
-
+    width: 320px;
+    display: inline-block;
 } 
 
 div#Menu>ul>li a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 4px 60px;
-    display: block;
     text-align: center;
     text-decoration: none;
-
+    padding: 10px;
+    font-weight: bold; 
 }
 
 div#Menu>ul>li a:hover {
-    color: red;
-    padding: 4px 60px;
-
-
+    color: maroon ;
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
 
 h1{
