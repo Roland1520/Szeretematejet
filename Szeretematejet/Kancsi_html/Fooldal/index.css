@@ -52,15 +52,15 @@ h1{
     overflow: auto;
 }
 p {
-    text-align: center;
-    margin-left:auto;
+    text-align: justify;
+    margin-left: auto;
     margin-right: auto;
     border-color: #ffffff;
     background-color: #ff0000;
     border-radius: 25px;
     width: 720px;
     height: 170px; 
- line-height: 1.5em;
- overflow: auto;
- text-shadow: 2px 2px 4px black;
+    line-height: 1.5em;
+    overflow: auto;
+    text-shadow: 2px 2px 4px black;
 }
