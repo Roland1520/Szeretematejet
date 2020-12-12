@@ -41,6 +41,7 @@ div#Menu>ul>li a:hover {
     display: block;
     text-align: center;
     padding: 10px;
+    font-weight: normal;
 }
 
 h1{
