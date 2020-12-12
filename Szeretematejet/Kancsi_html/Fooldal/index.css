@@ -18,14 +18,13 @@ div#Menu>ul {
 div#Menu>ul>li {
     display: block;
     display: inline-block;
-    width: 320px;
-
+    width: 300px;
 }
 
 div#Menu>ul>li:hover {
     color: black;
     background-color: activecaption;
-    width: 320px;
+    width: 300px;
     display: inline-block;
 } 
 
@@ -70,6 +69,6 @@ p {
 }
 p:hover{
     filter:blur(0px);
-    background: rgba(255, 0, 0,0.7); 
+    background: rgba(255, 0, 0,0.7);
 
 }
