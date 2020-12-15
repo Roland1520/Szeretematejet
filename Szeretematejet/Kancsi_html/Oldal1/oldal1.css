@@ -2,6 +2,10 @@ body{
     background-color: black;
     color: white;
 }
+div#Menu{
+    position: sticky;
+    top: 1px;    
+}
 
 div#Menu>ul {
     display: block;
@@ -9,8 +13,6 @@ div#Menu>ul {
     padding: 0px;
     text-align: center;
     font-size: 20px;
-    position: sticky;
-    top: 1px;
 }
 
 div#Menu>ul>li {
