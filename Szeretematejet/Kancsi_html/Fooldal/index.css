@@ -5,6 +5,10 @@ body{
     background-color: black;
     color: white;
 }
+div#Menu{
+    position: sticky;
+    top: 1px;    
+}
 
 div#Menu>ul {
     display: block;
@@ -70,8 +74,7 @@ p {
     line-height: 1.5em;
     overflow: auto;
     text-shadow: 2px 2px 4px black;
-    background: rgba(255, 0, 0,0.9); 
-    filter:blur(1px);
+    background: rgba(255, 0, 0,0.8); 
     text-align-last: center;
     text-orientation: mixed;
 }
