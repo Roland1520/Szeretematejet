@@ -1,9 +1,19 @@
 * {
     box-sizing: border-box;
 }
+html{
+    background-image: url("kepek/background.png");
+    
+}
+
 body{
     background-color: black;
     color: white;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    
 }
 div#Menu{
     position: sticky;
