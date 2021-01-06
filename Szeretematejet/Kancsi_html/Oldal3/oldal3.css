@@ -13,11 +13,11 @@ div#Menu>ul {
     padding: 0px;
     text-align: left;
     font-size: 20px;
-background-color: white;
-border-radius: 25px;
-border-width: 5px;
-border-style: outset;
-border-color: red;
+    background-color: white;
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: red;
 }
 
 div#Menu>ul>li {
@@ -31,6 +31,7 @@ div#Menu>ul>li:hover {
     background-color: activecaption;
     width: 150px;
     display: inline-block;
+    border-radius: 25px;
 } 
 
 div#Menu>ul>li a {
@@ -41,10 +42,11 @@ div#Menu>ul>li a {
     text-decoration: none;
     padding: 10px;
     font-weight: bold; 
+    text-shadow: 0.9px 0.3px 1.5px grey;
 }
 
 div#Menu>ul>li a:hover {
-    color: red;
+    color:#e60000;
     display: block;
     text-align: center;
     padding: 10px;
@@ -59,6 +61,7 @@ h1{
     float: left;
     margin-top: 10px;
     margin-left: 20px;
+    margin-left: 30px;
 }
 
 p {

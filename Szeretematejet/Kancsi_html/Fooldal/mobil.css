@@ -51,15 +51,15 @@ div#Menu > ul > li a {
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
-    text-shadow: 0.5px 0.5px 3px black;
+    text-shadow: 0.9px 0.3px 1.5px grey;
 }
 
 div#Menu > ul > li a:hover {
-    color: red;
+    color:#e60000;
     display: block;
     text-align: center;
     padding: 10px;
-    text-shadow: 0.5px 0.5px 3px black;
+    border-radius: 25px;
 }
 
 h1 {
