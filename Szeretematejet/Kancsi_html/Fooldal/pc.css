@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 html{
-    background-image: url("kepek/background.png");
-    
+  
 }
 
 body{
@@ -62,7 +61,7 @@ div#Menu>ul>li a:hover {
     display: block;
     text-align: center;
     padding: 10px;
-    text-shadow: 0.5px 0.5px 3px black;
+    text-shadow: 0.5px 0.5px 3px black;d
 }
 
 h1{
