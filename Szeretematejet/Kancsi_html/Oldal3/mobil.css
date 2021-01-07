@@ -113,3 +113,9 @@ img {
   max-width: 400px;
   height: auto;
 }
+.img {
+    width: auto;
+    max-width: 350px;
+    height: auto;
+    max-height: 200px;
+}
