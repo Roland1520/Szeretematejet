@@ -95,12 +95,11 @@ p {
         background: rgba(255, 0, 0,0.7);
     }
 
-
-img {
+.img {
     width: auto;
-    max-width: 250px;
+    max-width: 350px;
     height: auto;
-    max-height 120px;
+    max-height: 200px;
 }
 
 .kepkeret{
