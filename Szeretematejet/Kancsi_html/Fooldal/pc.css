@@ -7,8 +7,7 @@ html{
 body{
     background-color: black;
     color: white;
-    width: 80%;
-    margin: auto;
+    width: auto;
     padding-bottom: 30px;
     border-radius: 25px;
 
@@ -72,7 +71,6 @@ h1{
     float: left;
     margin-top: 10px;
     margin-left: 20px;
-    margin-left: 30px;
 }
 p {
     text-align: justify;
@@ -95,7 +93,6 @@ p:hover{
 }
 
 .képgomb {
-
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
