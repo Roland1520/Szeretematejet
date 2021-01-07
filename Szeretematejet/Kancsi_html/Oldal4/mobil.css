@@ -107,5 +107,8 @@ p {
 }
 
 img {
-    width: 40%;
+    margin-left: 15%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
