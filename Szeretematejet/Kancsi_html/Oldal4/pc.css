@@ -76,3 +76,7 @@ p {
     height: auto;
     max-height: 400px;
 }
+
+#img {
+    text-align: center;
+}
