@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Szeretematejet"
+    "\\Szeretematejet",
+    "\\Szeretematejet\\Kancsi_html",
+    "\\Szeretematejet\\Kancsi_html\\Fooldal",
+    "\\Szeretematejet\\Kancsi_html\\Oldal1"
   ],
-  "SelectedNode": "\\Szeretematejet\\Gruntfile.js",
   "PreviewInSolutionExplorer": false
 }
