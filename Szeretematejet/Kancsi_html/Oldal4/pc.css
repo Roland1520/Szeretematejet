@@ -69,3 +69,10 @@ p {
 .kepkeret{
     text-align: center;
 }
+
+.img {
+    width: auto;
+    max-width: 600px;
+    height: auto;
+    max-height: 400px;
+}
