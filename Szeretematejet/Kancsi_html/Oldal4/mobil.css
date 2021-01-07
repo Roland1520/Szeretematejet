@@ -85,7 +85,7 @@ p {
     line-height: 1.5em;
     overflow: auto;
     text-shadow: 2px 2px 4px black;
-    background: rgba(255, 0, 0,0.8);
+    background: rgba(255, 0, 0,0.7);
     text-align-last: center;
     text-orientation: mixed;
 }
@@ -104,4 +104,14 @@ p {
 
 .kepkeret{
     text-align: left;
+}
+#YTvideo{
+    text-align: center;
+     text-decoration:  yellow; 
+    font-weight: bold; 
+}
+#YTvideo>a{
+    text-align: center;
+     color:  yellow; 
+    font-weight: bold; 
 }

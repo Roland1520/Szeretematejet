@@ -5,10 +5,11 @@
         <title>Versenypályák</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="mobilecssloader.js" type="text/javascript"></script>
         <link rel="shortcut icon" type="image/x-icon" href="kepek/cimlogo.png"/>    
-        <link href="oldal3.css" rel="stylesheet" type="text/css"/>
+        <link href="pc.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
+    <body onload='loadstyle("pc.css", "mobil.css")'>
         <div id='Menu'>         
             <img id="logo" src="kepek/F1.png" alt="" width="64" height=32/>
             <ul>
@@ -18,6 +19,7 @@
                 <li id='Szabályok'><a href="../Oldal2/oldal2.html">Szabályok</a></li>
             </ul>
         </div>
+        <div class="image"/>
         <h1>A Formula 1 versenypályái</h1>
         <p>Egy tipikus versenypálya általános jellemzője a rajt-célegyenes, amelyen felsorakoznak a versenyzők a starthoz, és ahol a kockás zászlóval leintik a versenyt. A célegyenes nem feltétlenül egyenes, előfordul, hogy enyhe íve van, mint például Monacóban. Spa-Francorchampsban is volt enyhe íve a célegyenesnek, de a 2007-es átépítések során teljesen egyenes lett. A bokszutca, ahova a versenyzők kiállnak a futam alatt gumicserére, rövid karbantartásra vagy régebben üzemanyagtöltésre (ezt jelenleg biztonsági okokból nem engedélyezik), általában a célegyenes mentén helyezkedik el. A pálya többi része széles körben változik; a legtöbb versenypályán az óramutató járásával megegyezően haladnak a versenyzők</p>
         <h2>1. Ausztrália - Melbourne</h2>
@@ -36,7 +38,7 @@
         <img src="kepek/chine.png" alt="" class="img"/>
         <h2>5. Hollandia - Zandvoort:</h2>
         <p>A Circuit Zandvoort (2017-ig Circuit Park Zandvoort) a közvetlenül az Északi-tenger partján, a holland Zandvoort település mellett található homokos tengerparti dűnék között elhelyezkedő versenypálya, amelyen 1952-től 1985-ig harmincszor rendeztek Formula–1-es versenyt. 2021-től 36 év után újra visszatér ide a mezőny.</p>
-        <img src="kepek/Netherlands_Circuit.png" alt=""class="img" />
+        <img src="kepek/Netherlands_Circuit.png" alt="" class="img" />
         <h2>6. Azerbajdzsán - Baku:</h2>
         <p>A Baku City Circuit (azeri betűkkel: Bakı Şəhər Halqası) egy Formula–1-es versenypálya Bakuban, amely 2016-ban a Forma-1-es európai nagydíjnak adott otthont, 2017-től pedig az azeri nagydíjat rendezik itt.</p>
         <img src="kepek/Baku_Circuit.png" alt="" class="img"/>
@@ -47,7 +49,7 @@
         <p>A Circuit de Monaco városi pálya Monaco Monte-Carlo és La Condamine városrészein vezet keresztül, a Forma–1-es verseny monacói nagydíjára. A város számos utcáját lezárják, a közlekedési táblákat, és a virágágyásokat eltüntetik. Felállítják az ideiglenes boxutcát, a kerítéseket, a kerékvetőket és a nézőtereket, ezeken egyszerre 100 000 ember tud elférni. Az így kialakított pálya 3,340 km hosszú. A miniállam 2 km²-es területének szinte egészét bejárja a pálya. Több, különféle kanyar található rajta, mint pl. a hajtűkanyar Fairmont Hotelnél (egykori Loews Hotel), a Forma-1-es pályák leglassúbb kanyarja. Emellett nevezetes még a versenypálya hosszú alagútjáról, és egy sikán is található rajta, nem sokkal az alagútkijárat után.</p>
         <img src="kepek/Monoco_Circuit.png" alt="" class="img"/>
         <h2>9. Kanada - Montreal:</h2>
-        <p>A Circuit Gilles Villeneuve egy igen tempós motorsport-versenypálya a kanadai Montréal városában, mely a kanadai Formula–1-es versenyzőről, Gilles Villeneuveről kapta nevét. A városi pályán rendezik meg évente a Formula–1 kanadai nagydíjat. A pálya a festői Île Notre-Dame szigeten található, melyen ha nem rendeznek éppen valamilyen versenyt, normális közútnak számít. Hossza 4,361 kilométer, és az óra járásával megegyezően fut. A sok egyenessel teli pálya egyik különlegessége a célegyenes előtti sikán mellett található Bajnokok fala (Wall of Champions), aminek 1999-ben a három világbajnok Damon Hill, Michael Schumacher és Jacques Villeneuve is nekiütközött, és mindhárman feladni kényszerültek a versenyt. A falon a "Bienvenue au Québec" felirat látható, mely magyarul "Üdvözöljük Québecben"-t jelent. A</p>
+        <p>A Circuit Gilles Villeneuve egy igen tempós motorsport-versenypálya a kanadai Montréal városában, mely a kanadai Formula–1-es versenyzőről, Gilles Villeneuveről kapta nevét. A városi pályán rendezik meg évente a Formula–1 kanadai nagydíjat. A pálya a festői Île Notre-Dame szigeten található, melyen ha nem rendeznek éppen valamilyen versenyt, normális közútnak számít. Hossza 4,361 kilométer, és az óra járásával megegyezően fut. A sok egyenessel teli pálya egyik különlegessége a célegyenes előtti sikán mellett található Bajnokok fala (Wall of Champions), aminek 1999-ben a három világbajnok Damon Hill, Michael Schumacher és Jacques Villeneuve is nekiütközött, és mindhárman feladni kényszerültek a versenyt. A falon a "Bienvenue au Québec" felirat látható, mely magyarul "Üdvözöljük Québecben"-t jelent.</p>
         <img src="kepek/Canada-circuit.png" alt="" class="img" />
         <h2>10. Franciaország -  Le Castellet:</h2>
         <p>A Circuit Paul Ricard egy versenypálya Franciaországban, Le Castelletben, Marseille-tól 39 km-re keletre. 1971-től 1975-ig a páratlan, 1976-tól 1982-ig a páros években, 1983-ban, 1985-től 1990-ig, és 2018-tól[1] itt rendezik a Formula–1-es világbajnokság francia nagydíját.</p>
