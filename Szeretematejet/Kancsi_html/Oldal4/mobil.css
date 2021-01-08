@@ -1,10 +1,6 @@
 ﻿ * {
     box-sizing: border-box;
 }
-
-html {
-}
-
 body {
     background-color: black;
     color: white;
@@ -18,53 +14,48 @@ div#Menu {
     top: 1px;
 }
 
-    div#Menu > ul {
-        display: block;
-        margin: 10px;
-        padding: 0px;
-        text-align: left;
-        font-size: 20px;
-        background-color: white;
-        border-radius: 25px;
-        border-width: 5px;
-        border-style: outset;
-        border-color: red;
-    }
+div#Menu > ul {
+    display: block;
+    margin: 10px;
+    padding: 0px;
+    text-align: left;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: red;
+}
 
-        div#Menu > ul > li {
-            display: block;
-            display: inline-block;
-            width: 150px;
-        }
+div#Menu > ul > li {
+    display: block;
+    display: inline-block;
+    width: 150px;
+}
 
-            div#Menu > ul > li:hover {
-                color: black;
-                background-color: activecaption;
-                width: 150px;
-                display: inline-block;
-                border-radius: 25px;
-            }
+div#Menu > ul > li:hover {
+    color: black;
+    background-color: activecaption;
+    width: 150px;
+    display: inline-block;
+    border-radius: 25px;
+}
 
-            div#Menu > ul > li a {
-                display: block;
-                color: black;
-                text-decoration: none;
-                text-align: center;
-                text-decoration: none;
-                padding: 10px;
-                font-weight: bold;
-                text-shadow: 0.9px 0.3px 1.5px grey;
-            }
-
-                div#Menu > ul > li a:hover {
-                    color: #e60000;
-                    display: block;
-                    text-align: center;
-                    padding: 10px;
-                }
-
+div#Menu > ul > li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 0.9px 0.3px 1.5px grey;
+}
 h1 {
     text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: monospace;
 }
 #logo {
     text-align: center;
@@ -114,4 +105,9 @@ p {
     text-align: center;
      color:  yellow; 
     font-weight: bold; 
+}
+h2{
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-align: center;
 }

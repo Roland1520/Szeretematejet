@@ -43,6 +43,8 @@ div#Menu>ul>li a {
     padding: 10px;
     font-weight: bold; 
     text-shadow: 0.9px 0.3px 1.5px grey;
+    font-family: Arial, sans-serif;
+
 }
 
 div#Menu>ul>li a:hover {
@@ -50,11 +52,13 @@ div#Menu>ul>li a:hover {
     display: block;
     text-align: center;
     padding: 10px;
+    font-family: Arial, sans-serif;
+
 }
 
 h1{
     text-align: center;
-    font-family: monospace;
+  font-family: 'Trebuchet MS', sans-serif;
     font-weight: bold;
     text-decoration: underline;
 }

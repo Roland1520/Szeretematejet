@@ -43,6 +43,8 @@ div#Menu>ul>li a {
     padding: 10px;
     font-weight: bold; 
     text-shadow: 0.9px 0.3px 1.5px grey;
+    font-family: Arial, sans-serif;
+
 }
 
 div#Menu>ul>li a:hover {
@@ -50,12 +52,19 @@ div#Menu>ul>li a:hover {
     display: block;
     text-align: center;
     padding: 10px;
+    font-family: Arial, sans-serif;
+
 }
 
 h1{
     text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
     text-decoration: underline;
-
+}
+h2{
+    text-decoration: underline;
+    font-family: sans-serif;
 }
 #logo {
     text-align: center;
@@ -96,11 +105,11 @@ p {
 }
 #YTvideo{
     text-align: center;
-     text-decoration:  yellow; 
+    text-decoration:  yellow; 
     font-weight: bold; 
 }
 #YTvideo>a{
     text-align: center;
-     color:  yellow; 
+    color:  yellow; 
     font-weight: bold; 
 }

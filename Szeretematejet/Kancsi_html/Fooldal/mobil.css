@@ -16,6 +16,7 @@ div#Menu {
 
 div#Menu > ul {
     display: block;
+    margin: 10px;
     padding: 0px;
     text-align: left;
     font-size: 20px;
@@ -27,9 +28,9 @@ div#Menu > ul {
 }
 
 div#Menu > ul > li {
-
+    display: block;
     display: inline-block;
-    width: 100px;
+    width: 150px;
 }
 
 div#Menu > ul > li:hover {
@@ -37,6 +38,7 @@ div#Menu > ul > li:hover {
     background-color: activecaption;
     width: 150px;
     display: inline-block;
+    border-radius: 25px;
 }
 
 div#Menu > ul > li a {
@@ -50,16 +52,11 @@ div#Menu > ul > li a {
     text-shadow: 0.9px 0.3px 1.5px grey;
 }
 
-div#Menu > ul > li a:hover {
-    color:#e60000;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    border-radius: 25px;
-}
-
 h1 {
     text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 #logo {
@@ -85,3 +82,4 @@ p {
     text-align-last: center;
     text-orientation: mixed;
 }
+

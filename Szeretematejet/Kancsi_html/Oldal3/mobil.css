@@ -51,15 +51,11 @@ div#Menu > ul > li a {
     text-shadow: 0.9px 0.3px 1.5px grey;
 }
 
-div#Menu > ul > li a:hover {
-    color: #e60000;
-    display: block;
-    text-align: center;
-    padding: 10px;
-}
-
 h1 {
     text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 #logo {
@@ -86,7 +82,9 @@ p {
     text-orientation: mixed;
 }
 
-h2 {
+h2{
+    text-decoration: underline;
+    font-family: sans-serif;
     text-align: center;
 }
 .image>img {
