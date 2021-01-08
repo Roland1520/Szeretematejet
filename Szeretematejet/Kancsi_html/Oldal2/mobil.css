@@ -1,12 +1,13 @@
-﻿body {
+﻿ * {
+    box-sizing: border-box;
+}
+body {
     background-color: black;
     color: white;
-    width: 40%;
-    margin: auto;
+    width: auto;
     padding-bottom: 30px;
     border-radius: 25px;
 }
-
 div#Menu {
     position: sticky;
     top: 1px;
@@ -28,7 +29,7 @@ div#Menu > ul {
 div#Menu > ul > li {
     display: block;
     display: inline-block;
-    width: 100px;
+    width: 150px;
 }
 
 div#Menu > ul > li:hover {
@@ -36,6 +37,7 @@ div#Menu > ul > li:hover {
     background-color: activecaption;
     width: 150px;
     display: inline-block;
+    border-radius: 25px;
 }
 
 div#Menu > ul > li a {
@@ -46,19 +48,21 @@ div#Menu > ul > li a {
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
-    text-shadow: 0.5px 0.5px 3px black;
+    text-shadow: 0.9px 0.3px 1.5px grey;
 }
 
 div#Menu > ul > li a:hover {
-    color: red;
+    color: #e60000;
     display: block;
     text-align: center;
     padding: 10px;
-    text-shadow: 0.5px 0.5px 3px black;
 }
 
 h1 {
     text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 #logo {
@@ -74,40 +78,29 @@ p {
     margin-right: auto;
     border-color: white;
     border-radius: 10px;
-    width: 500px;
+    width: auto;
     height: auto;
     line-height: 1.5em;
     overflow: auto;
     text-shadow: 2px 2px 4px black;
-    background: rgba(255, 0, 0,0.8);
+    background: rgba(255, 0, 0,0.7);
     text-align-last: center;
     text-orientation: mixed;
 }
 
-p:hover {
-    filter: blur(0px);
-    background: rgba(255, 0, 0,0.7);
+h2{
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-align: center;
 }
 
-.képgomb {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+.kormany {
+    width: auto;
+    max-width: 350px;
+    height: auto;
+    max-height: 200px;
 }
-h2 {
-    text-align: center;
-}
-.balra{
-     width: 50%;
-  max-width: 400px;
-  height: auto;
-}
-.img {
+.kerek {
     width: auto;
     max-width: 350px;
     height: auto;
