@@ -3,8 +3,12 @@
     "",
     "\\Szeretematejet",
     "\\Szeretematejet\\Kancsi_html",
-    "\\Szeretematejet\\Kancsi_html\\Fooldal",
-    "\\Szeretematejet\\Kancsi_html\\Oldal1"
+    "\\Szeretematejet\\Kancsi_html\\Oldal1",
+    "\\Szeretematejet\\Kancsi_html\\Oldal2",
+    "\\Szeretematejet\\Kancsi_html\\Oldal3",
+    "\\Szeretematejet\\Kancsi_html\\Oldal4\\kepek",
+    "\\Szeretematejet\\nbproject"
   ],
+  "SelectedNode": "\\Szeretematejet\\Kancsi_html\\Oldal2\\pc.css",
   "PreviewInSolutionExplorer": false
 }
